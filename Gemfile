@@ -1,2 +1,14 @@
-source "https://rubygems.org"
-gemspec
+source 'https://rubygems.org'
+
+grou :test do
+  gem 'html-proofer'
+end
+
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'jekyll-paginate'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-gist'
+  gem 'jekyll-feed'
+  gem 'jemoji'
+end
