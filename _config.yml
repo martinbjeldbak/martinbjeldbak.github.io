@@ -153,7 +153,7 @@ sass:
 permalink: /:year/:month/:day/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Australia/Brisbane # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Brisbane/Australia # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -221,7 +221,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share:
       related: true
 
 post_image_path: /assets/images/posts
