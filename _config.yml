@@ -10,10 +10,10 @@ locale                   : "en"
 title                    : "Martin Bjeldbak Madsen"
 title_separator          : "-"
 name                     : "Martin Bjeldbak Madsen"
-description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Software developer"
+url                      : "http://martinbjeldbak.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "martinbjeldbak/martinbjeldbak.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -78,33 +78,18 @@ analytics:
 # Site Author
 author:
   name             : "Martin Bjeldbak Madsen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/me.png"
+  bio              : "Software Developer slash consultant at NetEngine."
   location         : "Brisbane, Australia"
   email            : "martinbmadsen@gmail.com"
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
   facebook         :
-  foursquare       :
   github           : "martinbjeldbak"
-  google_plus      :
   keybase          : "martinb"
   instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
+  linkedin         : "martinbjeldbak"
+  stackoverflow    : "660936/martin"
   twitter          : "martinbjeldbak"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
 
 
 # Reading Files
@@ -238,3 +223,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+post_image_path: /assets/images/posts
+images:
+  path: "/assets/images"
+  post_path: "/assets/images/posts"

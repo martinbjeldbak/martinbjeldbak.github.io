@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/martinb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://martinbjeldbak.com
+  * I am martinb (https://keybase.io/martinb) on keybase.
+  * I have a public key ASDTW_JPxam8RnXnMtPzcYh3UvlaJE7DTTflGbMp2g7cFQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a32ce788ace1d45e5ea068d96fda725bb40f0f16bb4f8f65279f53eaf925ccad0a",
+            "host": "keybase.io",
+            "kid": "0120d35bf24fc5a9bc4675e732d3f371887752f95a244ec34d37e519b329da0edc150a",
+            "uid": "9961b820bfc247e06f97887a2a9a9b00",
+            "username": "martinb"
+        },
+        "service": {
+            "hostname": "martinbjeldbak.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1461749615,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1461749520,
+        "hash": "74a0b0786ad95acfdbdf12da4192bcbbe1fca644325aedf55ed4eeea60f8b54fab63a2a32cd0032eeb4e9097387612658acf3a54931aa743d392732b9231982e",
+        "seqno": 451958
+    },
+    "prev": "0ce3a578cb4b720c7a07804e1b29e8840d7d13c7931c42a03765b7a1727bdcf3",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg01vyT8WpvEZ15zLT83GId1L5WiROw0035RmzKdoO3BUKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTMyY2U3ODhhY2UxZDQ1ZTVlYTA2OGQ5NmZkYTcyNWJiNDBmMGYxNmJiNGY4ZjY1Mjc5ZjUzZWFmOTI1Y2NhZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDM1YmYyNGZjNWE5YmM0Njc1ZTczMmQzZjM3MTg4Nzc1MmY5NWEyNDRlYzM0ZDM3ZTUxOWIzMjlkYTBlZGMxNTBhIiwidWlkIjoiOTk2MWI4MjBiZmMyNDdlMDZmOTc4ODdhMmE5YTliMDAiLCJ1c2VybmFtZSI6Im1hcnRpbmIifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1hcnRpbmJqZWxkYmFrLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTUifSwiY3RpbWUiOjE0NjE3NDk2MTUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MTc0OTUyMCwiaGFzaCI6Ijc0YTBiMDc4NmFkOTVhY2ZkYmRmMTJkYTQxOTJiY2JiZTFmY2E2NDQzMjVhZWRmNTVlZDRlZWVhNjBmOGI1NGZhYjYzYTJhMzJjZDAwMzJlZWI0ZTkwOTczODc2MTI2NThhY2YzYTU0OTMxYWE3NDNkMzkyNzMyYjkyMzE5ODJlIiwic2Vxbm8iOjQ1MTk1OH0sInByZXYiOiIwY2UzYTU3OGNiNGI3MjBjN2EwNzgwNGUxYjI5ZTg4NDBkN2QxM2M3OTMxYzQyYTAzNzY1YjdhMTcyN2JkY2YzIiwic2Vxbm8iOjE3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQH1zxmngyfowuUZlH5GGkCO8iXhvtMaN+U3GkB2xr00385vXc/Inf4hrRLaTTwVEW4w4dErJXvUy8OdMiGDV/geoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/martinb
+
+==================================================================
