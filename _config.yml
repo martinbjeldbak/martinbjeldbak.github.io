@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Martin Bjeldbak Madsen"
-  avatar           : "/assets/images/me.png"
+  avatar           : "/assets/images/me.jpeg"
   bio              : "Software Developer slash consultant at NetEngine."
   location         : "Brisbane, Australia"
   email            : "martinbmadsen@gmail.com"
@@ -150,10 +150,10 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Brisbane # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
