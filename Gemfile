@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-grou :test do
+group :test do
   gem 'html-proofer'
 end
 
