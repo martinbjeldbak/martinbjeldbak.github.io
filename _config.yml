@@ -224,7 +224,6 @@ defaults:
       share:
       related: true
 
-post_image_path: /assets/images/posts
 images:
   path: "/assets/images"
   post_path: "/assets/images/posts"
