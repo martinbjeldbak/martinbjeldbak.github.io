@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Martin Bjeldbak Madsen"
   avatar           : "/assets/images/me.jpeg"
-  bio              : "Software Developer slash consultant at NetEngine."
+  bio              : "Ruby on Rails developer slash consultant at NetEngine."
   location         : "Brisbane, Australia"
   email            : "martinbmadsen@gmail.com"
   uri              :
