@@ -2,7 +2,7 @@
 title: "A simple, customizable beamer theme"
 date: 2014-07-18 21:28:36 +0200
 comments: true
-categories: latex beamer
+<!-- categories: latex beamer -->
 ---
 
 This simple theme is based upon Cameron Bracken's theme that I really liked, but had a couple of gripes with. The original is posted [here](http://cameron.bracken.bz/beamer-template). I made my own modifications, such as adding a footer, page numbers, and simplifying it a bit. By no means am I a designer, but I'm happy with the results of hacking a little bit on his theme.

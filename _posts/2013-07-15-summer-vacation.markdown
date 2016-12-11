@@ -2,7 +2,7 @@
 title: "Summer vacation"
 date: 2013-07-15 10:17
 comments: true
-categories:
+<!-- categories: -->
 ---
 
 After a prolonged break from writing any blog posts (or writing anything at all, for that matter) over the past two semesters - since last summer… really, I have finally gotten back the time and desire to write a little update.

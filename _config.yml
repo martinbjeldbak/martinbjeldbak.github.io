@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Martin Bjeldbak Madsen"
 title_separator          : "-"
 name                     : "Martin Bjeldbak Madsen"
-description              : "Martin Bjeldbak Madsen's blog and personal site."
+description              : "Blog and personal site of a software developer slash consultant."
 url                      : "http://martinbjeldbak.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "martinbjeldbak/martinbjeldbak.github.io"
@@ -57,16 +57,18 @@ yandex_site_verification :
 twitter:
   username               : "martinbjeldbak"
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username               : "martinbjeldbak"
+og_image                 : "assets/images/me.jpeg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/martinbjeldbak"
+    - "https://facebook.com/martinbjeldbak"
+    - "https://instagram.com/martinbjeldbak"
+    - "https://www.linkedin.com/in/martinbjeldbak"
 
 # Analytics
 analytics:
@@ -172,7 +174,6 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -225,5 +226,5 @@ defaults:
       related: true
 
 images:
-  path: "/assets/images"
-  post_path: "/assets/images/posts"
+  path      : "/assets/images"
+  post_path : "/assets/images/posts"

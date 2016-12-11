@@ -2,7 +2,7 @@
 title: "fonecal: A calendar generator for the 2014 Formula 1 season"
 date: 2014-03-18 22:46:36 +0100
 comments: true
-categories: ruby
+<!-- categories: ruby -->
 ---
 
 I love Formula 1. This season is especially exciting, hence there's not a qualifying session or race that I want to miss. Unfortunately my search for any good, sensible calendars that simply include practice, qualifying, and race events in my timezone regardless of the event's timezones has been fruitless. So I wrote my own calendar parser for this 2014 Formula One season.

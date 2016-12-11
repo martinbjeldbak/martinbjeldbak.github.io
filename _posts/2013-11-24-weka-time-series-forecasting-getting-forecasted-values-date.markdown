@@ -2,7 +2,7 @@
 title: Time series forecasting with Weka
 date: 2013-11-24 23:51
 comments: true
-categories: weka, programming
+<!-- categories: weka, programming -->
 ---
 
 Here's an example of programmatically getting predicted values' date and time using Weka and pentaho's Java APIs. Recently, I've had to use Weka via their Java libraries to predict future electricity prices. What bothered me was that getting the forecasted price was easy, but getting the date and time of that forecasted price deemed more tricky than expected.

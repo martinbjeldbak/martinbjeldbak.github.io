@@ -2,7 +2,7 @@
 title: "Add pgfplots mark for last point"
 date: 2014-05-24 23:12:11 +0200
 comments: true
-categories: [pgfplots latex]
+<!-- categories: [pgfplots latex] -->
 ---
 
 Marking the last data point in line charts with a specific symbol makes it much easier to distinguish between types of lines on a plot when printing in grayscale, or if the reader is colorblind to the colors you have chosen for your graph.

@@ -2,7 +2,7 @@
 title: "Representing mathematical graphs in Ruby"
 date: 2012-10-15 17:08
 comments: true
-categories: Datastructures
+<!-- categories: Datastructures -->
 ---
 
 In our Algorithms and Datastructures course, we've been working with algorithms that traverse directed and undirected graph structures. And in my quest to better understand these algorithms (depth-first search, breadth-first search, and so on…) I decided I would implement a graph data structure as a fun little weekend project.

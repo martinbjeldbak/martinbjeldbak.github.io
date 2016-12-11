@@ -2,7 +2,7 @@
 title: "Automatic Compilation of LaTeX"
 date: 2015-12-25 21:09:34 +0100
 comments: true
-categories: latex
+<!-- categories: latex -->
 ---
 
 Recently, I found the [latexmk](https://www.ctan.org/pkg/latexmk) tool, which can automatically figure out the order of LaTeX and BibTeX compiles, making sure you never get ``undefined references`` in the LaTeX log file or ``??`` in the PDF due to the wrong compile order.

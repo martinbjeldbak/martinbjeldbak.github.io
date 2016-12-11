@@ -2,7 +2,7 @@
 title: Typeset pgfplots axis ticks with siunitx
 date: 2013-12-18 18:26:36 +0100
 comments: true
-categories: latex
+<!-- categories: latex -->
 ---
 
 The siunitx package is often used to typeset numbers in LaTeX, and wouldn't it also be lovely to typeset the _x_ and _y_ labels of a pgfplots graph using the same style to keep things consistent? Seek no farther! There's no need to attempt to set the same configurations of siunitx and pgfplots in order to have everything synced. Here is a MWE I put together:

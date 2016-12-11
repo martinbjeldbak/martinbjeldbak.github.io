@@ -3,7 +3,7 @@ title: "Install capybara-webkit on RHEL 6.x"
 date: 2014-07-24 17:10:00 +0200
 comments: true
 published: true
-categories: linux
+<!-- categories: linux -->
 ---
 
 Here's how I installed the [thoughtbot/capybara-webkit](https://github.com/thoughtbot/capybara-webkit) gem and configured headless testing on RHEL 6.5 with [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins).
