@@ -223,6 +223,7 @@ defaults:
       read_time: true
       comments: # true
       share:
+      pagination: false
       related: true
 
 images:
