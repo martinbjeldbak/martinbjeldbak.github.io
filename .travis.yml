@@ -4,6 +4,8 @@ rvm:
 sudo: false
 install: bundle install
 script: jekyll build && htmlproofer ./_site --url-ignore "/#.*/" --only-4xx
+git:
+  depth: 3
 
 env:
   global:
