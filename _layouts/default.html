@@ -18,7 +18,9 @@
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
-        {% include footer.html %}
+        {% if page.footer_hide_social %}
+          {% include footer.html %}
+        {% endif %}
       </footer>
     </div>
 

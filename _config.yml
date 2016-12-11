@@ -224,6 +224,7 @@ defaults:
       share:
       pagination: false
       related: true
+      footer_hide_social: false
   # _pages
   - scope:
       path: ""
