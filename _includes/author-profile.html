@@ -53,7 +53,14 @@
           </a>
         </li>
       {% endif %}
-      
+
+      {% if site.cv_path %}
+        <li><a href="{{ site.cv_path }} " itemprop="sameAs">
+          <i class="fa fa-fw fa-book" aria-hidden="true"></i>
+          Resume
+        </a></li>
+      {% endif %}
+
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }} " itemprop="sameAs">
           <i class="fa fa-fw fa-key" aria-hidden="true"></i> 

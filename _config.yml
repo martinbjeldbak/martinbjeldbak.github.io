@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
+locale                   : "en_AU"
 title                    : "Martin Bjeldbak Madsen"
 title_separator          : "-"
 name                     : "Martin Bjeldbak Madsen"
@@ -62,7 +62,7 @@ og_image                 : "assets/images/me.jpeg" # Open Graph/Twitter default 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Person" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/martinbjeldbak"
@@ -224,7 +224,18 @@ defaults:
       share:
       pagination: false
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 
 images:
   path      : "/assets/images"
   post_path : "/assets/images/posts"
+
+cv_path: "/cv.pdf"
+thesis_path: "/thesis.pdf"
