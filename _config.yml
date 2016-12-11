@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Martin Bjeldbak Madsen"
 title_separator          : "-"
 name                     : "Martin Bjeldbak Madsen"
-description              : "Software developer"
+description              : "Martin Bjeldbak Madsen's blog and personal site."
 url                      : "http://martinbjeldbak.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "martinbjeldbak/martinbjeldbak.github.io"
@@ -48,14 +48,14 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : # already verified via google analytics
+bing_site_verification   : "D2178E33FDC6731D0D6810C6100F5AE5"
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "martinbjeldbak"
 facebook:
   username               :
   app_id                 :

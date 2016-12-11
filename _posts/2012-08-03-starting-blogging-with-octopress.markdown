@@ -2,7 +2,7 @@
 title: "Starting blogging with Octopress"
 date: 2012-08-03 13:20:00 +0200
 comments: true
-categories: Randomness
+categories: randomness
 ---
 
 Officially my first post, woohoo!
