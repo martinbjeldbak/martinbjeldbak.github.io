@@ -128,7 +128,7 @@ class Graph
 end
 {% endhighlight %}
 
-![Graph using RubyGraphs](/assets/posts/graphExample1.png)
+![Graph using RubyGraphs]( {{ site.images.post_path }}/graphExample1.png){: .align-center}
 
 
 Simple, really! But this composition does exactly what I want! It outputs images as graphs such as the one pictured to the right with the DOT-language notation as shown below. As the DOT-language listing makes clear, each vertex has a unique ID (actually, it's their [object id](http://ruby-doc.org/core-1.9.3/Object.html#method-i-object_id), which is still unique for that object) so it's possible to change their values later, keeping the vertex's connecting edges in place. Neat!
