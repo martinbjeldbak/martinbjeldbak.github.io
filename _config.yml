@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en_AU"
 title                    : "Martin Bjeldbak Madsen"
@@ -29,29 +31,34 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : # "md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : # "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
+  siteKey                :
+  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 
 # SEO Related
 google_site_verification : # already verified via google analytics
 bing_site_verification   : "D2178E33FDC6731D0D6810C6100F5AE5"
-alexa_site_verification  :
 yandex_site_verification :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -84,16 +91,24 @@ author:
   location         : "Brisbane, Australia"
   email            : "martinbmadsen@gmail.com"
   uri              :
+  home             : # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
   facebook         :
+  foursquare       :
   github           : "martinbjeldbak"
-  keybase          : # "martinb"
+  gitlab           :
+  google_plus      :
+  keybase          :
   instagram        :
   lastfm           :
   linkedin         : "martinbjeldbak"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "660936/martin"
-  steam            :
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "martinbjeldbak"
   vine             :
@@ -165,8 +180,8 @@ paginate_path: /page:num/
 timezone: Brisbane/Australia # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
-gems:
+# Plugins (previously gems:)
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -229,22 +244,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share:
-      pagination: false
+      share: true
       related: true
       footer_hide_social: false
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-
-images:
-  path      : "/assets/images"
-  post_path : "/assets/images/posts"
 
 cv_path: "/cv.pdf"
 thesis_path: "/thesis.pdf"
