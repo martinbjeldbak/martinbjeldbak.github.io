@@ -248,5 +248,10 @@ defaults:
       related: true
       footer_hide_social: false
 
+images:
+    path      : "/assets/images"
+    post_path : "/assets/images/posts"
+
+
 cv_path: "/cv.pdf"
 thesis_path: "/thesis.pdf"
