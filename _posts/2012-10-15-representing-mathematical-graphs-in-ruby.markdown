@@ -149,7 +149,5 @@ digraph {
 
 Occasionally I might need to go back to the vertex and graph classes to expand them so they can be used in different algorithms (adding color and distance for use in depth-first search, for example), and the above source code will reflect those changes since they're just symlinked do the git versions.
 
-If you have any comments or improvements, I'd love to hear them! Feel free to create a pull request on the newly created [GitHub repository](https://github.com/Fapper/RubyGraphs) I've made to keep track of my changes and additions to the project. It has received the _fantastic_ "RubyGraphs" name!
-
 ## To the future, and beyond!
 In the next post or two, I plan to use this simple abstract data structure to implement various algorithms working on graphs. On Github I also plan to add the algorithms I decide to implement, though haven't decided which yet… though the first post will probably be about [depth-first search](http://en.wikipedia.org/wiki/Depth-first_search)!

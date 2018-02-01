@@ -8,8 +8,6 @@ This tutorial sets up the same development environment across all platforms (tha
 
 If you are unfamiliar with Docker or Vagrant, or how combining the two work, I highly suggest checking out the Vagrant dev's videos on their Docker provider [here][1].
 
-TLDR: See a base install of Rails with Ruby 2.2 deployed on a Docker container via Vagrant [here][11].
-
 # Preliminaries
 This tutorial requires Vagrant >1.6 and uses the Ruby Docker image from the [phusion/passenger-docker](https://github.com/phusion/passenger-docker) Docker image set, but can be followed using their Node.js and full images.
 
@@ -139,5 +137,4 @@ Alternatives include [Docker Compose][9]. A similar solution, bi-passing Vagrant
 [8]: https://github.com/mitchellh/vagrant/wiki/%60vagrant-up%60-hangs-at-%22Waiting-for-VM-to-boot.-This-can-take-a-few-minutes%22
 [9]: https://docs.docker.com/compose/
 [10]: http://blog.zenika.com/index.php?post/2014/10/07/Setting-up-a-development-environment-using-Docker-and-Vagrant
-[11]: https://github.com/{{ site.author.github }}/vagrant-docker-rails
 [12]: https://github.com/phusion/passenger-docker#image-variants
